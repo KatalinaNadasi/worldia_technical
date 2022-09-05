@@ -1,0 +1,82 @@
+import { apiResponseType } from "..";
+
+export const getFlightData = () => {
+  const response: apiResponseType = {
+    data: [
+      {
+        id: "flight-1",
+        flightNumber: "AF 4561",
+        airline: "Air France",
+        takeoff: "17:45",
+        landing: "20:00",
+        duration: 495,
+        price: 899.99,
+        currencyCode: "EUR",
+        departureAirport: "Charles de Gaulle Airport, CDG",
+        arrivalAirport: "John F. Kennedy International Airport, JFK",
+      },
+      {
+        id: "flight-2",
+        flightNumber: "IB 7214",
+        airline: "Iberia",
+        takeoff: "12:00",
+        landing: "14:30",
+        duration: 510,
+        price: 410.0,
+        currencyCode: "EUR",
+        departureAirport: "Paris Orly Airport, ORY",
+        arrivalAirport: "Milano Malpensa Airport, MXP",
+      },
+      {
+        id: "flight-3",
+        flightNumber: "DT 7652",
+        airline: "Delta",
+        takeoff: "19:45",
+        landing: "22:00",
+        duration: 495,
+        price: 580,
+        currencyCode: "EUR",
+        departureAirport: "Charles de Gaulle Airport, CDG",
+        arrivalAirport: "John F. Kennedy International Airport, JFK",
+      },
+      {
+        id: "flight-4",
+        flightNumber: "LH 9988",
+        airline: "Lufthansa",
+        takeoff: "16:00",
+        landing: "18:30",
+        duration: 820,
+        price: 310.0,
+        currencyCode: "EUR",
+        departureAirport: "Paris Orly Airport, ORY",
+        arrivalAirport: "Frankfurt Airport, FRA",
+      },
+      {
+        id: "flight-5",
+        flightNumber: "AE 1458",
+        airline: "Air Europa",
+        takeoff: "16:00",
+        landing: "17:30",
+        duration: 120,
+        price: 109.0,
+        currencyCode: "EUR",
+        departureAirport: "Charles de Gaulle Airport, CDG",
+        arrivalAirport: "Barcelona Airport, BCN",
+      },
+      {
+        id: "flight-6",
+        flightNumber: "AF 7192",
+        airline: "Air France",
+        takeoff: "17:45",
+        landing: "20:00",
+        duration: 495,
+        price: 699.99,
+        currencyCode: "EUR",
+        departureAirport: "Charles de Gaulle Airport, CDG",
+        arrivalAirport: "John F. Kennedy International Airport, JFK",
+      },
+    ],
+  };
+
+  return response;
+};
